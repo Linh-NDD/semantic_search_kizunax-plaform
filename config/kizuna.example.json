@@ -1,0 +1,11 @@
+{
+  "base_url": "https://kizunax.io/api/v1",
+  "api_key": "YOUR_KIZUNA_API_KEY",
+  "ocr_path": "/rag/documents/markdown",
+  "embed_path": "/embeddings",
+  "auth_header": "Authorization",
+  "auth_prefix": "Bearer",
+  "ocr_method": "GET",
+  "embed_method": "POST",
+  "embed_model": "bge-m3"
+}

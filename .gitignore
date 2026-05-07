@@ -1,0 +1,20 @@
+# runtime secrets/config
+config/kizuna.json
+.env
+*.env
+
+# runtime data/storage
+venv/
+storage/
+data/
+bin/qdrant
+.qdrant-initialized
+*.log
+*.pid
+__pycache__/
+*.py[cod]
+
+# local/editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+[Unit]
+Description=Qdrant vector database for RAG
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/rag
+ExecStart=/opt/rag/bin/qdrant --config-path /opt/rag/config/qdrant.yaml --disable-telemetry
+Restart=on-failure
+RestartSec=5
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

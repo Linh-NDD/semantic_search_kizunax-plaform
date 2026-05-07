@@ -1,0 +1,6 @@
+requests
+qdrant-client
+fastapi
+uvicorn
+jinja2
+python-multipart
